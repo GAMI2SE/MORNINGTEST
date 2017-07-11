@@ -21,7 +21,7 @@ public class IntegerNumberTest {
     @Before
     public void setUp() {
         testcase1 = new IntegerNumber(631);
-        testcase2 = new IntegerNumber(4);
+        testcase2 = new IntegerNumber(7);
     }
 
     @After
