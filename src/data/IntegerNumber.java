@@ -28,7 +28,7 @@ public class IntegerNumber {
         if (value < 2) {
             return false;
         } else {
-            for (int i = 2; i <= value / 2; i++) {
+            for (int i = 1; i <= value / 2; i++) {
                 if (value % i == 0) {
                     return false;
                 }
